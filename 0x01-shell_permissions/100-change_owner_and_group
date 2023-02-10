@@ -1,2 +1,2 @@
-#/!bin/bash
+#!/bin/bash
 chgrp -R staff 0x01-shell_permissions 
