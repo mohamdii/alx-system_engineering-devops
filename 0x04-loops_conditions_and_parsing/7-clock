@@ -3,8 +3,6 @@
 for i in {1..12}; do
 	for j in {1..59}; do
 		echo "$j"
-		if [ $j = 59 ]; then
-			echo "hour: $i"
-		fi
 	done
+	echo "i"
 done
