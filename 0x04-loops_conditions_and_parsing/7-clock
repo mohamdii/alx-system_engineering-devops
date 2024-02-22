@@ -1,8 +1,12 @@
 #!/usr/bin/env bash
 #clock
-for i in {0..12}; do
-	echo "Hour $i"
-	for j in {1..59}; do
-		echo "$j"
+hour=0
+while [ $hour -le 12 ]; do
+	echo "Hour $hour"
+	minutes=1
+	while [ $minutes -le 59 ]; do
+		echo "$minutes"
+		((minutes++))
 	done
+	((hour++))
 done
