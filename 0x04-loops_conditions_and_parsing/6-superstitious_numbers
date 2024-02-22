@@ -2,7 +2,7 @@
 #still the same thing
 
 counter=1
-while [ $counter -lt 20 ]; do
+while [ $counter -lt 21 ]; do
 	case $counter in
 		4)
 			echo "bad luck from Chine"
