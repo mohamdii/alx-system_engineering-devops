@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 # Display content of the current directory
+# only after the dash
+
 list = $(ls)
 for file in $list; do
 	echo "$file" | cut -d '-' -f2
