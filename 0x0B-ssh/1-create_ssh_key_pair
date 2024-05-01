@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# useful flags used
+ssh-keygen -b 4096 -f school -N betty
